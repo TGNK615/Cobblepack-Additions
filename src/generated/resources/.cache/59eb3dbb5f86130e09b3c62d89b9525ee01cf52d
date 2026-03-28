@@ -1,0 +1,7 @@
+// 1.21.1	2026-03-27T16:51:31.0451965	Loot Tables
+51bec54acee21219ba441bf21a9a5d873b745613 data/cpack_additions/loot_table/blocks/auto_press.json
+49648943bacde08c6c3053d856d8df45c2a07f82 data/cpack_additions/loot_table/blocks/heavy_iron_block.json
+03c4a043c002084dbf007defb984415ccc3306d1 data/cpack_additions/loot_table/blocks/plated_iron_block.json
+b70e3dfcc2cb2e6e853f60a9b60385465e13c4b4 data/cpack_additions/loot_table/blocks/reinforced_alloy_block.json
+f7160d82e6c31de5b18d36511550ac5b7bdf713d data/cpack_additions/loot_table/blocks/reinforced_auto_press.json
+36a32043fa182f2ca76ebe128148f6b2292eea33 data/cpack_additions/loot_table/blocks/reinforced_iron_block.json

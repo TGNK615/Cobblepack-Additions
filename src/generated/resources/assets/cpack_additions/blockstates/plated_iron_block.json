@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cpack_additions:block/plated_iron_block"
+    }
+  }
+}

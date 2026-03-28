@@ -1,0 +1,10 @@
+{
+  "values": [
+    "cpack_additions:plated_iron_block",
+    "cpack_additions:heavy_iron_block",
+    "cpack_additions:reinforced_iron_block",
+    "cpack_additions:reinforced_alloy_block",
+    "cpack_additions:auto_press",
+    "cpack_additions:reinforced_auto_press"
+  ]
+}

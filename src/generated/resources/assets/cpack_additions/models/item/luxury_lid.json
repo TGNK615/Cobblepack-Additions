@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cpack_additions:item/pokeball/lid/luxury_lid"
+  }
+}

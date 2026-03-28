@@ -1,0 +1,4 @@
+// 1.21.1	2026-03-27T16:51:31.0441956	Tags for minecraft:block mod id cpack_additions
+e0f44b5999c875cec4e53f591496def4d6a543f0 data/minecraft/tags/block/mineable/pickaxe.json
+97c3c5b0de4e5a8c442a3516e0caea2c6e38c458 data/minecraft/tags/block/needs_diamond_tool.json
+06cf26cf0663679166174e351fa688ecd8fa2880 data/minecraft/tags/block/needs_iron_tool.json
