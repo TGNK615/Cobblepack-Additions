@@ -1,4 +1,4 @@
-package com.cobblepack.Recipe;
+package com.cobblepack.recipe;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;

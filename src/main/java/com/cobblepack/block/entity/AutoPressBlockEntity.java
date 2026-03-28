@@ -1,9 +1,8 @@
 package com.cobblepack.block.entity;
 
-import com.cobblepack.Recipe.AutoPressRecipe;
-import com.cobblepack.Recipe.AutoPressRecipeInput;
-import com.cobblepack.Recipe.ModRecipes;
-import com.cobblepack.item.ModItems;
+import com.cobblepack.recipe.AutoPressRecipe;
+import com.cobblepack.recipe.AutoPressRecipeInput;
+import com.cobblepack.recipe.ModRecipes;
 import com.cobblepack.screen.custom.AutoPressMenu;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;

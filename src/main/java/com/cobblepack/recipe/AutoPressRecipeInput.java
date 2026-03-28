@@ -1,4 +1,4 @@
-package com.cobblepack.Recipe;
+package com.cobblepack.recipe;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeInput;

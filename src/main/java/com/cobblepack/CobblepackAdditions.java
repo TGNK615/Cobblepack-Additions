@@ -1,6 +1,6 @@
 package com.cobblepack;
 
-import com.cobblepack.Recipe.ModRecipes;
+import com.cobblepack.recipe.ModRecipes;
 import com.cobblepack.block.ModBlocks;
 import com.cobblepack.block.entity.ModBlockEntites;
 import com.cobblepack.item.ModCreativeModeTabs;
