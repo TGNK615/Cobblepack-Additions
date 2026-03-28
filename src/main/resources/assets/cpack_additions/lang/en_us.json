@@ -1,0 +1,66 @@
+{
+  "item.cpack_additions.red_apricorn_paste": "Red Apricorn Paste",
+  "item.cpack_additions.blue_apricorn_paste": "Blue Apricorn Paste",
+  "item.cpack_additions.yellow_apricorn_paste": "Yellow Apricorn Paste",
+  "item.cpack_additions.green_apricorn_paste": "Green Apricorn Paste",
+  "item.cpack_additions.pink_apricorn_paste": "Pink Apricorn Paste",
+  "item.cpack_additions.black_apricorn_paste": "Black Apricorn Paste",
+  "item.cpack_additions.white_apricorn_paste": "White Apricorn Paste",
+
+  "item.cpack_additions.red_apricorn_brew": "Red Apricorn Brew",
+  "item.cpack_additions.blue_apricorn_brew": "Blue Apricorn Brew",
+  "item.cpack_additions.yellow_apricorn_brew": "Yellow Apricorn Brew",
+  "item.cpack_additions.green_apricorn_brew": "Green Apricorn Brew",
+  "item.cpack_additions.pink_apricorn_brew": "Pink Apricorn Brew",
+  "item.cpack_additions.black_apricorn_brew": "Black Apricorn Brew",
+  "item.cpack_additions.white_apricorn_brew": "White Apricorn Brew",
+
+  "item.cpack_additions.dusk_alloy": "Dusk Alloy",
+  "item.cpack_additions.great_alloy": "Great Alloy",
+  "item.cpack_additions.luxury_alloy": "Luxury Alloy",
+  "item.cpack_additions.quick_alloy": "Quick Alloy",
+  "item.cpack_additions.repeat_alloy": "Repeat Alloy",
+  "item.cpack_additions.sport_alloy": "Sport Alloy",
+  "item.cpack_additions.timer_alloy": "Timer Alloy",
+  "item.cpack_additions.ultra_alloy": "Ultra Alloy",
+
+  "item.cpack_additions.dusk_plate": "Dusk Plate",
+  "item.cpack_additions.great_plate": "Great Plate",
+  "item.cpack_additions.luxury_plate": "Luxury Plate",
+  "item.cpack_additions.quick_plate": "Quick Plate",
+  "item.cpack_additions.repeat_plate": "Repeat Plate",
+  "item.cpack_additions.sport_late": "Sport Plate",
+  "item.cpack_additions.timer_plate": "Timer Plate",
+  "item.cpack_additions.ultra_plate": "Ultra Plate",
+
+  "item.cpack_additions.dusk_lid": "Dusk Lid",
+  "item.cpack_additions.great_lid": "Great Lid",
+  "item.cpack_additions.luxury_lid": "Luxury Lid",
+  "item.cpack_additions.quick_lid": "Quick Lid",
+  "item.cpack_additions.repeat_lid": "Repeat Lid",
+  "item.cpack_additions.sport_lid": "Sport Lid",
+  "item.cpack_additions.timer_lid": "Timer Lid",
+  "item.cpack_additions.ultra_lid": "Ultra Lid",
+
+  "item.cpack_additions.reinforced_alloy": "Reinforced Alloy",
+
+  "item.cpack_additions.carbon_fiber": "Carbon Fiber",
+  "item.cpack_additions.carbon_steel": "Carbon Steel",
+
+  "item.cpack_additions.reinforcement_paste": "Reinforcer Cream",
+
+  "item.cpack_additions.oil": "Oil",
+  "item.cpack_additions.oil_concentrate": "Oil Concentrate",
+
+  "block.cpack_additions.plated_iron_block": "Block of Plated Iron",
+  "block.cpack_additions.heavy_iron_block": "Block of Heavy Iron",
+  "block.cpack_additions.reinforced_iron_block": "Block of Reinforced Iron",
+  "block.cpack_additions.reinforced_alloy_block": "Block of Reinforced Alloy",
+
+  "block.cpack_additions.auto_press": "Auto Press",
+  "block.cpack_additions.reinforced_auto_press": "Reinforced Auto Press",
+
+  "creativetab.cpack_additions.processed_apricorn": "Processed Apricorns",
+  "creativetab.cpack_additions.machinery": "Machinery",
+  "creativetab.cpack_additions.ball_parts": "Ball Parts"
+}
