@@ -1,15 +1,14 @@
 package com.cobblepack.block.entity;
 
-import com.cobblepack.recipe.AutoPressRecipe;
-import com.cobblepack.recipe.AutoPressRecipeInput;
-import com.cobblepack.recipe.ModRecipes;
+import com.cobblepack.recipes.AutoPressRecipe;
+import com.cobblepack.recipes.AutoPressRecipeInput;
+import com.cobblepack.recipes.ModRecipes;
 import com.cobblepack.screen.custom.AutoPressMenu;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.crafting.Recipe;
 import net.minecraft.world.item.crafting.RecipeHolder;
 import net.minecraft.world.level.block.state.BlockState;
 
@@ -24,12 +23,11 @@ public class AutoPressBlockEntity extends AbstractAutoPressBlockEntity {
     @Override
     protected boolean hasRecipe() {
         Optional<RecipeHolder<AutoPressRecipe>> recipe = getCurrentRecipe();
-
-        System.out.println("Recipe present: " + recipe.isPresent());
-
         if (recipe.isEmpty()) {
             return false;
         }
+
+        System.out.println("Recipe present: " + recipe.isPresent());
 
         ItemStack output = recipe.get().value().output();
         return canInsertAmount(output.getCount()) && canInsertItem(output);
@@ -41,11 +39,6 @@ public class AutoPressBlockEntity extends AbstractAutoPressBlockEntity {
     }
 
     @Override
-    protected ItemStack getRecipeOutput(RecipeHolder<? extends Recipe<?>> recipeHolder) {
-        return ((AutoPressRecipe) recipeHolder.value()).output();
-    }
-
-    @Override
     protected int getOutputSlot() {
         return OUTPUT_SLOT;
     }
@@ -53,9 +46,17 @@ public class AutoPressBlockEntity extends AbstractAutoPressBlockEntity {
     @Override
     protected void craftItem() {
         Optional<RecipeHolder<AutoPressRecipe>> recipe = getCurrentRecipe();
-        ItemStack output = recipe.get().value().output();
+        ItemStack output = recipe.get().value().output().copy();
+        ItemStack current = itemHandler.getStackInSlot(OUTPUT_SLOT);
 
-        itemHandler.extractItem(INPUT_SLOT, recipe.get().value().inputItem().getItems()[1].getCount(), false);
+        if (current.isEmpty()) {
+            itemHandler.setStackInSlot(OUTPUT_SLOT, output);
+        } else {
+            current.grow(output.getCount());
+        }
+
+        int count = recipe.get().value().inputCount();
+        itemHandler.extractItem(INPUT_SLOT, count, false);
         itemHandler.setStackInSlot(OUTPUT_SLOT, new ItemStack(output.getItem(),
                 itemHandler.getStackInSlot(OUTPUT_SLOT).getCount() + output.getCount()));
     }

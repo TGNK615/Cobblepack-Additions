@@ -7,8 +7,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.crafting.Recipe;
-import net.minecraft.world.item.crafting.RecipeHolder;
 import net.minecraft.world.level.block.state.BlockState;
 
 public class ReinforcedAutoPressBlockEntity extends AbstractAutoPressBlockEntity {
@@ -31,11 +29,6 @@ public class ReinforcedAutoPressBlockEntity extends AbstractAutoPressBlockEntity
         if (!output.is(ModItems.GREAT_BALL_PLATE.get())) return false;
 
         return output.getCount() + 3 <= output.getMaxStackSize();
-    }
-
-    @Override
-    protected ItemStack getRecipeOutput(RecipeHolder<? extends Recipe<?>> recipeHolder) {
-        return null;
     }
 
     @Override

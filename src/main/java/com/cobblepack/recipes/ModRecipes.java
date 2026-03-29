@@ -1,4 +1,4 @@
-package com.cobblepack.recipe;
+package com.cobblepack.recipes;
 
 import com.cobblepack.CobblepackAdditions;
 import net.minecraft.core.registries.Registries;

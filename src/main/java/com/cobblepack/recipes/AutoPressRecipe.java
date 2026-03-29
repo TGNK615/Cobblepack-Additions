@@ -1,4 +1,4 @@
-package com.cobblepack.recipe;
+package com.cobblepack.recipes;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
@@ -25,11 +25,7 @@ public record AutoPressRecipe(Ingredient inputItem, int inputCount, ItemStack ou
 
     @Override
     public boolean matches(AutoPressRecipeInput input, Level level) {
-        ItemStack stack = input.getItem(1);
-
-        if (level.isClientSide()) {
-            return false;
-        }
+        ItemStack stack = input.getItem(0);
 
         return inputItem.test(stack) && stack.getCount() >= inputCount;
     }
